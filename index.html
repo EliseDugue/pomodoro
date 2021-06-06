@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Pomodoro Timer</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body onload="initCSS()">
+        <h1>Pomodoro Timer</h1>
+
+        <p id="countdown">20:00</p>
+
+        <input onclick="startCountdown()" class="btn" id="playBtn" type="submit" value="Play">
+        <input onclick="pauseCountdown()" class="btn" id="pauseBtn" type="submit" value="Pause">
+        <input onclick="resetCountdown()" class="btn" id="stopBtn" type="submit" value="Stop">
+
+        <br>
+        <br>
+
+        <input required aria-required="true" type="number" min="0" value="20" id="minutes" class="timer" aria-label="Enter the number of minutes." placeholder="00">
+
+        <input required aria-required="true" type="number" min="0" max="59" value="00" id="seconds" class="timer" aria-label="Enter the number of seconds." placeholder="00">
+
+        <input onclick="getUserValues()" class="btn" id="sumbitBtn" type="submit" value="OK">
+
+        <br>
+        <br>
+
+        <input required aria-required="true" type="search" id="img-theme" name="theme" aria-label="Search a theme" placeholder="Search a theme">
+        <input onclick="setUserTheme()" class="btn" type="submit" value="Apply">
+        <button onclick="setRandomTheme()" class="btn" type="button">I'm feeling lucky!</button>
+
+    </body>
+
+</html>
