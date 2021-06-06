@@ -1,2 +1,2 @@
 # pomodoro
- Pomodoro is JS project to train myself in this language and to use an API -- ongoing project
+Pomodoro est un projet personnel que j'ai débuté pour m'entrainer à utiliser JavaScript. Pomodoro est une tehcnique de gestion du temps en alternant 20 minutes de travail et 5 minutes de pause. J'ai donc voulu créer un minuteur sur cette base en le rendant plus personnalisable. Pour m'entraîner à utiliser une API, j'ai choisi d'implémenter l'API Unsplash qui permet de changer l'arrière-plan à sa guise.
